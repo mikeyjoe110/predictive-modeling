@@ -1,0 +1,45 @@
+---
+title: "Predictive Modeling Summary"
+author: "Michael Wachter"
+date: "2024-12-10"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Week 1
+1) Regression problems are looking for continuous values, as classification problems are looking for discrete class labels.
+2) If your model performs great on training data but generalizes poorly to new instances, it is overfitting.
+
+# Week 2
+1) Exploratory analysis is what you are using when you are deciphering trends. Explanatory analysis is what is used to then explain why and how something happened. 
+2) Adding new features to further explain your data is a good practice. This is called feature engineering.
+
+# Week 3
+1) Linear regression models can be used to predict values based on your data. Make sure your classification columns are factors before running.
+2) For the error terms to be uncorrelated, the value of the error term for one observation should not be related to the value of the error term for any other observation. 
+
+# Week 4
+1) When you need a binary result for your prediction or a percent chance of an event happening, use a logistic regression model.
+2) Precision is preferred when the cost of false positives is high, while recall is preferred when the cost of false negatives is high.
+
+# Week 5
+1) You can use a generalized linear model and graph your observed values against your predicted values to see how accurate your predictions are.
+2) When the data is non-normal, a generalized linear model can be used over a linear model.
+
+# Week 6
+1) When you need a simple and easy to understand model, use a decision-tree. But when you want to avoid overfitting and increase accuracy, use a random forest model.
+2) Gradient boosting can be a powerful algorithm and it's accuracy is superior to many other predictive models.
+
+# Week 7
+1) You can use fviz_nbclust to find the optimal number of clusters needed for kmeans.
+2) Three main applications of unsupervised algorithms are clustering, association rules, and dimensionality reduction.
+
+# Week 8
+1) Using output in your rmd files can give you different formats based on your presentation needs.
+2) Github is essentially the google drive of code. You can use it to share your code with the world, solicit improvements via pull requests, and track issues.
+
+
+
